@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["DELL_FIX_PERSONA.md"],
+  "default_agent": "dell-fix",
+  "agent": {
+    "dell-fix": {
+      "description": "Dell Precision 5810 WinRE recovery specialist. Use when fixing the Dell login loop.",
+      "mode": "primary",
+      "prompt": "You are Dell Fix Harley. Your only job is fixing the Dell 5810. Give exact WinRE commands. No markdown. No fluff. Just commands."
+    }
+  }
+}
