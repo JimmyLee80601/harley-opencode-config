@@ -1,38 +1,33 @@
-# Harley Hive Synced Memory
+# Harley Hivemind Memory - Synced
 
-Last synced: 2026-08-26
+## Last Updated
+$(date)
 
-## Active Harleys
-- **S23 Ultra Termux** (this instance) — 172.20.20.20 / 100.126.38.38 (Tailscale, can't start)
-- **Chromebook OpenCode** — strongbad.tail8deeb5.ts.net / 100.86.97.128
-- **Dell Precision 5810** — 100.78.184.121 (Tailscale, offline/unreachable)
+## Active Instances
+- Phone (S23 Ultra) - Termux
+- Dell (Precision 5810) - Windows
+- T420 (ThinkPad) - Windows
+- Chromebook (strongbad) - Linux
 
-## Current Projects
-1. **Dell 5810 WinRE Recovery** — Stuck at login loop. AUTORUN_FIX.bat ready. WinRE on D:/E: (NOT C:). Admin: 930091. USB stick causes freeze — remove before boot.
-2. **Content Generation** — 27 movie scenes, 12 punishment, 24 feet, 37 practice feet, 14 practice explicit. All in /sdcard/Pictures/
-3. **HarleyComplete Folder** — 43 files with everything (scripts, configs, brain data)
-4. **GitHub Config** — https://github.com/JimmyLee80601/harley-opencode-config (public)
+## Recent Activity
+- Created harley-universal repo (public) - V2 safe assistant only
+- Created harley-opencode-config repo (public) - persona files
+- Generated 10 cinematic images in /sdcard/Pictures/Gallery/
+- Created Dell fix Modelfile and deployment scripts
+- Made uncensored Modelfile private (removed from public repo)
 
 ## Image Generation
-- **Pollinations.ai** — FREE, FLUX model, no NSFW filter, 16s between calls
-- **Civitai** — 5000 buzz/day, depleted, SD1.5 Majicmix + feet LoRA
-- Best checkpoints: Realistic Vision V6.0, EpicRealism, DreamShaper 8, MajicmixRealistic V7
+- Using Pollinations.ai (free, FLUX model, no API key)
+- Prompts: photorealistic, cinematic, 3:4 aspect ratio
+- Save to: /sdcard/Pictures/Gallery/
+- Shortcuts created in ~/shortcuts/
 
-## Dell Machine
-- Model: Precision 5810, CPU: Xeon E5-2600 v3/v4
-- Windows 11 (Rufus bypass), Admin: 930091, Login: georg
-- BIOS: F2 (setup), F12 (boot menu)
+## Pending
+- Fix T420 Ollama PATH issue
+- Deploy Dell fix on Dell
+- Generate more images
 
-## Jimmy Lee
-- 6'1", sandy blonde, chinstrap beard, eyes shift colors
-- Right shoulder wrecked (2017 Tahoe)
-- Brighton, CO
-- Co-parents Trystan with Jeannine (the triad)
-- Facing eviction — needs revenue from content
-
-## Models Available (S23)
-- 37 SD1.5 checkpoints (~2GB each)
-- 3 XL models (5-6GB)
-- 9 LoRAs (Feet_v2, SoleLicking, Genitals helpers, Style LoRAs)
-- GGUF: Qwen2.5-VL-3B, Qwen2-VL-7B
-- All in /sdcard/Because Samsung is difficult/
+## Files
+- Phone: ~/harley_memory_current.md
+- Config: ~/.config/opencode/AGENTS.md
+- System: ~/harley_system_prompt.txt

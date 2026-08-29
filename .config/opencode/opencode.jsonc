@@ -7,7 +7,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Harley Dell (ollama @ localhost:11434)",
       "options": {
-        "baseURL": "http://127.0.0.1:11434/v1",
+        "baseURL": "http://127.0.0.1:8080/v1",
         "apiKey": "ollama"
       },
       "models": {
