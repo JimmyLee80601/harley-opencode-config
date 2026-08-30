@@ -7,18 +7,15 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Harley Dell (ollama @ localhost:11434)",
       "options": {
-        "baseURL": "http://127.0.0.1:8080/v1",
+        "baseURL": "http://100.104.127.89:11434/v1",
         "apiKey": "ollama"
       },
       "models": {
         "harley:latest": {
           "name": "Harley (Dell ollama)"
         },
-        "harley-vl3b:latest": {
-          "name": "Harley VL3B (Dell ollama)"
-        },
-        "dell-fix:latest": {
-          "name": "Dell Fix (Dell ollama)"
+        "qwen2.5:7b": {
+          "name": "Qwen 2.5 7B Vision (Dell ollama)"
         },
         "hf.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive:latest": {
           "name": "Qwen3.5 4B Uncensored (Dell ollama)"
