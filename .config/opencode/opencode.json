@@ -5,7 +5,7 @@
   "provider": {
     "harley-dell": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "Harley Dell (ollama @ localhost:11434)",
+      "name": "Harley Dell (ollama @ Dell Tailscale)",
       "options": {
         "baseURL": "http://100.104.127.89:11434/v1",
         "apiKey": "ollama"
