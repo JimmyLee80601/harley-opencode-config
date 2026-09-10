@@ -1,0 +1,28 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "system-design": {
+      "mode": "subagent"
+    }
+  },
+  "mcp": {
+    "desktop-control": {
+      "type": "local",
+      "command": "C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": ["C:\\tools\\mcp-servers\\desktop-mcp-server\\desktop_server.py"],
+      "enabled": true
+    },
+    "naturo": {
+      "type": "local",
+      "command": "C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": ["-m", "naturo", "mcp", "start"],
+      "enabled": true
+    },
+    "control-mcp": {
+      "type": "local",
+      "command": "C:\\Users\\georg\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": ["-m", "control_mcp.server"],
+      "enabled": true
+    }
+  }
+}
