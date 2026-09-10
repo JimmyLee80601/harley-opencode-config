@@ -102,7 +102,19 @@ Already configured on Dell. Access from Chromebook:
   Gmail: georgiaboy77535@gmail.com
   App Password: ikwiazqmwjwbsiua
 
+## OPTION 9: SSH ON PORT 443 (ACTIVE NOW)
+Harley has a proxy running on port 443 forwarding to SSH port 22.
+Port 443 (HTTPS) is usually allowed through firewalls.
+
+From Chromebook:
+  ssh georg@100.104.127.89 -p 443
+
+From S23 Termux:
+  ssh georg@100.104.127.89 -p 443
+
+Password: (your Windows login password)
+
 ## IMMEDIATE ACTION
-Try Option 6 (Tailscale SSH) first - it bypasses all port filtering.
-If that doesn't work, try Option 1 (direct Tailscale SSH).
-If nothing works, Option 8 (Chrome Remote Desktop) always works.
+Try Option 9 (port 443) FIRST - it's running now.
+If that doesn't work, try Option 8 (Chrome Remote Desktop).
+If nothing works, run the admin scripts on Dell to fix firewall.
